@@ -6,14 +6,15 @@
 <meta charset="UTF-8">
 <script>
 	
-	function change_liste()
-		{
+	function change_liste() {
+		let testListe = document.getElementsByTagName("li");
+		testListe.style.listStyleType = "circle";
+		testListe.innerHTML = "blabla";
 
-			
-		
 		}
 	
 </script>
+	<script src="../app.js" async></script>
 
 </head>
 <body onclick="change_liste()">
@@ -28,6 +29,7 @@
 	<li>g</li>
 	<li>h</li>	
 </ul>
+
 
 </body>
 </html>
